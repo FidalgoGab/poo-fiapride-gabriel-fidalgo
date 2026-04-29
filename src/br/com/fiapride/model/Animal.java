@@ -68,4 +68,8 @@ public class Animal {
     public void renomear(String nome){
         this.setNome(nome);
     }
+
+    public void emitirSom() {
+        System.out.println("Esse animal não emite som conhecido");
+    }
 }

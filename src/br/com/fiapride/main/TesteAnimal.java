@@ -40,5 +40,15 @@ public class TesteAnimal {
         //Animal1 se alimenta
         formiga.alimentar(0.1);
         System.out.println("\n\nApós Formiga comer sobrou: " +formiga.getAlimentacao());
+
+        //Formiga emite som
+        System.out.println("\n\n--------------");
+        System.out.println("Som da formiga:");
+        formiga.emitirSom();
+
+        //Passaro emite som
+        System.out.println("\nSom do pássaro:");
+        passaro.emitirSom();
+
     }
 }

@@ -18,4 +18,8 @@ public class Passaro extends  Animal{
         return this.coloracao;
     }
 
+    @Override
+    public void emitirSom() {
+        System.out.println("Piu piu (assobio)!");
+    }
 }
